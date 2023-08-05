@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background: lightblue ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px rgba (0,0,0,0.1);
+
+}
+.container .left_Side {
+    position: relative;
+    background: rgb(153, 153, 153);
+    padding: 40px;
+}
+
+.textoperfil {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba (225,225,225,0.2);
+}
+
+.textoperfil .imgbx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.textoperfil .imgbx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.textoperfil h2 {
+    color: #fff;
+    font-size: 1em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600 ;
+    line-height: 1.4em;
+}
+
+.textoperfil h2 span {
+    color: #fff;
+    font-size: 0.8em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300 ;
+    line-height: 1.4em;
+}
+.container .rigth_Side {
+    position: relative;
+    background: whitesmoke;
+    padding: 40px;
+}
+
+.informacioncontacto {
+    padding-top: 25px;
+}
+
+.titulo {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+.informacioncontacto ul {
+    position: relative;
+}
+.informacioncontacto ul li {
+    position: relative;
+    list-style: none;
+    margin: 5px;
+    cursor: pointer;
+}
+.informacioncontacto ul li .icono{
+    display: inline-block;
+    width: 30px;
+    font-size: 15px;
+    color: aqua;
+}
+
+.informacioncontacto ul li .email{
+    font-size: 12px;
+}
+
+.informacioncontacto ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+
+.informacionestudio {
+    padding-top: 25px;
+}
+
+.informacionestudio ul {
+    position: relative;
+}
+.informacionestudio ul li {
+    position: relative;
+    list-style: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.informacionestudio ul li {
+    color: #fff;
+    font-weight: 300;
+}
+
+.informacionidiomas {
+    padding-top: 25px;
+}
+
+.informacionidiomas ul {
+    position: relative;
+}
+.informacionidiomas ul li {
+    position: relative;
+    list-style: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.informacionidiomas ul li {
+    color: #fff;
+    font-weight: 300;
+}
+
+.informacionidiomas .porcentaje {
+    position: relative;
+    width: 100%;
+    height: 8px;
+    background: black;
+    display: block;
+    margin-top: 5px;
+}
+.informacionidiomas .porcentaje .style{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: aqua;
+}
+
