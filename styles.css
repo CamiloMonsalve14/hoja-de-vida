@@ -192,3 +192,112 @@ body {
     padding: 20px;
     color: #fff;
 } */
+
+.about {
+    margin-bottom: 20px;
+
+}
+
+.about titulo2 {
+    margin-bottom: 0;
+}
+
+.titulo2 {
+    color: #31AFA7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    
+}
+
+p {
+    margin-bottom: 15px;
+}
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+
+.about .box .años {
+    min-width: 150px;
+}    
+
+.about .box .años h5 {
+    text-transform: uppercase;
+    color: #1B5F5B;
+    font-weight: 600;
+}
+
+.about .box .texto h4 {
+    text-transform: uppercase;
+    color: #31AFA7;
+    font-size: 14px;
+
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+.habilidades .box {
+    position: relative;
+    width: 100% ;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.habilidades .box h4 {
+    text-transform: uppercase;
+    color: #1B5F5B;
+    font-weight: 500;
+}
+.habilidades .box .percent {
+    position: relative;
+    width: 100%;
+    height: 12px;
+    color: grey;
+    border-radius: 5px;
+    border: solid;
+    margin-bottom: 30px;
+
+}
+
+.habilidades .box .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #31AFA7;
+}
+
+/* .hobbies ul {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+} */
+
+
+.hobbies li {
+    margin-bottom: 10px;
+    list-style: none;
+    align-items: baseline;
+
+
+}
+
+.hobbies ul li .fa {
+    color: #1B5F5B ;
+    font-size: 18px;
+    width: 20px;
+}
+
+@media (max-width: 1000px){
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media (max-width: 600px){
+    
+}
